@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'websitePortfolio';
+  title = 'Julia Sałek Portfolio';
+
+  public downloadCV(): void {
+
+  }
 }

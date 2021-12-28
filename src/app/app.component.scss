@@ -1,0 +1,358 @@
+.header {
+  padding: 82px 141.5px;
+  background: linear-gradient(180deg, #E5FFE1 0%, rgba(250, 250, 250, 0) 100%);
+  -webkit-backdrop-filter: blur(250px);
+  backdrop-filter: blur(250px);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.header-top-left {
+  justify-content: flex-start;
+  width: 100%;
+  display: flex;
+
+  .header-name {
+    font-style: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-weight: bold;
+    color: #19192E;
+    margin: auto 0;
+    font-family: sans-serif;
+  }
+}
+
+.header-top-right {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-badge {
+
+  padding: 6px 17px;
+
+  height: 32px;
+  background: rgba(255, 184, 0, 0.16);
+  border-radius: 179.467px;
+  height: 18px;
+
+  font-size: 16px;
+  color: #F2994A;
+
+  margin: 0px 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 0 21px;
+}
+
+.logo-linkedin {
+  display: block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 29px;
+  background: url(./../images/logo-linkedin.svg);
+  background-size: 30px;
+}
+
+.logo-website {
+  display: block;
+  text-indent: -9999px;
+  width: 30px;
+  height: 29px;
+  background: url(./../images/logo-website.svg);
+  background-size: 30px;
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-content-desc {
+  display: block;
+  padding: 90px 30px;
+}
+
+.content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -0.04em;
+  color: #25323D;
+  padding-bottom: 20px;
+}
+
+.content-desc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5D87A8;
+  padding: 30px 0;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom-contact,
+.bottom-experience {
+  display: block;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #5D87A8;
+
+  a {
+    color: #27AE60;
+    text-decoration: none;
+  }
+}
+
+.download-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 50px;
+  border: 1px solid #219653;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #219653;
+  font-size: 20px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.content-animation {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.profile-card {
+  background: #FFFFFF;
+  width: 277 *1.5px;
+  height: 223 * 1.5px;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 13.1532px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  div {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #25323D;
+  }
+
+  .location {
+    font-size: 18px;
+    font-weight: 900;
+    color: #859FB4;
+  }
+}
+
+.profile-photo {
+  background-image: url(./../images/profile-photo.jpg);
+  background-size: 150px;
+  max-width: 100%;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0px 10px 20px rgba(0, 59, 108, 0.13));
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.badge-role {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  background: #6FCF97;
+  box-shadow: 0px 5px 20px rgba(250, 118, 96, 0.2);
+  border-radius: 65.7658px;
+  position: relative;
+  top: -18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.floating-badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 16px;
+  position: relative;
+  width: max-content;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #5D87A8;
+  // animation: fade 3s ease forwards;
+}
+
+.floating-circles {
+  position: relative;
+}
+
+.badge-one {
+  top: -106px;
+  right: -403px;
+}
+
+.badge-two {
+  top: -200px;
+  left: 97px;
+}
+
+.badge-three {
+  top: 240px;
+  left: -625px;
+}
+
+.badge-four {
+  top: 300px;
+  right: 250px;
+}
+
+.badge-five {
+  top: 30px;
+  right: 50px;
+}
+
+.circles {
+  position: relative;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  box-shadow: 0px 40px 30px rgba(25, 25, 46, 0.04);
+
+  // -webkit-animation: myOrbit 4s linear infinite;
+  // -moz-animation: myOrbit 4s linear infinite;
+  // -o-animation: myOrbit 4s linear infinite;
+  // animation: myOrbit 4s linear infinite;
+}
+
+
+@-webkit-keyframes myOrbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes myOrbit {
+  from {
+    -moz-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes myOrbit {
+  from {
+    -o-transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    -o-transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+@keyframes myOrbit {
+  from {
+    transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+.circle-five {
+  background: #1073BB;
+  top: 208px;
+  right: -26px;
+}
+
+.circle-two {
+  background: rgba(228, 78, 37, 0.72);
+  left: 320px;
+  bottom: 76px;
+}
+
+.circle-three {
+  background: rgba(176, 12, 12, 0.38);
+  top: 300px;
+  left: -34px;
+}
+
+.circle-four {
+  background: #007acc;
+}
+
+.circle-one {
+  background: #F4EEFB;
+  left: 28px;
+  top: 10px;
+}
+
+.logos {
+  width: 30px;
+  height: 29px;
+  background-size: 30px;
+  margin: auto;
+}
+
+.logo-angular {
+  background-image: url(./../images/logo-svg/angular.svg);
+}
+
+.logo-html {
+  background-image: url(./../images/logo-svg/html5-with-wordmark-color.svg);
+}
+
+.logo-ts {
+  background-image: url(./../images/logo-svg/typescript-seeklogo.com.svg);
+}
+
+.logo-figma {
+  background-image: url(./../images/logo-svg/figma-seeklogo.com.svg);
+  width: 20px;
+  height: 30px;
+  background-size: 20px;
+}
