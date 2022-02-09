@@ -1,0 +1,73 @@
+.gif-animation {
+  background-image: url(./../../images/88985-contract-signing.gif);
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.form-contact>form {
+  display: grid;
+  padding-bottom: 10px;
+}
+
+input {
+    background: #F8FAFC;
+    border-radius: 4px;
+    margin: 10px 0px;
+    border: 1px solid #ffffff;
+    height: 100%;
+
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    background: #F8FAFC;
+    border-radius: 4px;
+    margin: 10px 0px;
+    border: 1px solid #ffffff;
+}
+
+label {
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.01em;
+
+  /* Text / Secondary - Grey2 */
+
+  color: #6F7482;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 2px 0px;
+}
+
+.send-form-contact {
+  background: rgba(247, 163, 86, 0.43);
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  background: rgba(247, 163, 86, 0.43);
+  color: #F2994A;
+  border-radius: 4px;
+  width: 65px;
+  align-self: flex-end;
+  grid-area: auto;
+  justify-self: right;
+  margin-top: 20px;
+}
+
+.form-contact {
+    border: 1px dashed #F59E0B;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 20px;
+width: 30%;
+}

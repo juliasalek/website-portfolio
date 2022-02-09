@@ -1,0 +1,19 @@
+<div class="section-title"></div>
+<div class="contact-container">
+  <div class="contact-animation">
+    <img src="88985-contract-signing.gif" />
+
+  </div>
+  <div class="form-contact">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit($event)">
+        <label>Name</label>
+    <input type="text" name="name">
+    <label>Email</label>
+    <input type="email" name="topic">
+    <label>Message</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send" class="send-form-contact">
+    </form>
+
+  </div>
+</div>
